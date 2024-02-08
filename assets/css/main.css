@@ -1,0 +1,13 @@
+[class^="container"]{
+  background-color: rgba(0, 0, 250, 0.3);
+  border: 1px solid black;
+  /*min-height: 50px;*/
+}
+
+header{
+  height: 90px;
+}
+
+ul li{
+  list-style: none;
+}
