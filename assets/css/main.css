@@ -31,3 +31,13 @@ ul li{
   height: 860px;
   border: 1px dashed black;
 }
+
+.about {
+  background-color: #1abc9c;
+}
+
+.content_about {
+  width: 980px;
+  height: 490px;
+  border: 1px dashed black;
+}
