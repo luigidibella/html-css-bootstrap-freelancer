@@ -13,12 +13,21 @@ ul li{
 }
 
 .jumbotron {
-  height: 590px;
   background-color: #1abc9c;
 }
 
 .content_jumbotron {
   width: 600px;
   height: 590px;
+  border: 1px dashed black;
+}
+
+.portfolio {
+  background-color: white;
+}
+
+.content_portfolio {
+  width: 1140px;
+  height: 860px;
   border: 1px dashed black;
 }
