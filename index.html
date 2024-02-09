@@ -13,48 +13,79 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <header class="text-bg-success">
+  <!-- header -->
+  <header class="">
     <div class="container h-100">
       <div class="row align-items-center h-100">
         <div class="col-6 col-md-2">
-          <div class="logo">START BOOTSTRAP</div>
+          <div class="logo text-white">START BOOTSTRAP</div>
         </div>
         <div class="col-6 col-md-10 ">
           <div class="hamburgher d-md-none text-end">H</div>
           <nav class="menu d-none d-md-block">
-              <ul class="d-flex text-white justify-content-end ">
-                  <li><a href="#" class="link-light ps-3 ">PORTFOLIO</a></li>
-                  <li><a href="#" class="link-light ps-3">ABOUT</a></li>
-                  <li><a href="#" class="link-light ps-3">CONTACT</a></li>
-              </ul>
+            <ul class="d-flex text-white justify-content-end ">
+              <li><a href="#" class="link-light ps-3 ">PORTFOLIO</a></li>
+              <li><a href="#" class="link-light ps-3">ABOUT</a></li>
+              <li><a href="#" class="link-light ps-3">CONTACT</a></li>
+            </ul>
           </nav>
         </div>
       </div>
     </div>
   </header>
-
+  <!-- /header -->
+  
   <main>
-    <section class="jumbotron">
-      <div class="container d-flex justify-content-center">
-        <div class="row">
+    <!-- jumbotron -->
+    <section id="jumbotron">
+      <div class="container">
+        <div class="row text-center flex-column ">
           <div class="col-12">
-            <div class="content_jumbotron"></div>
+            <img class="avatar w-25 h-25" src="assets/img/avatar.svg" alt="">
+            <h1>START BOOTSTRAP</h1>
+            <div>STAR</div>
+            <div>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="portfolio">
-      <div class="container d-flex justify-content-center">
-        <div class="row">
-          <div class="col-12">
-            <div class="content_portfolio"></div>
+    <!-- /jumbotron -->
+    
+    <!-- portfolio -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 debug">
+            <h2>TITOLO</h2>
+            <div>STAR</div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+              <div class="col debug">
+                <div class="sc-card mb-3"></div>
+              </div>
+              <div class="col debug">
+                <div class="sc-card mb-3"></div>
+              </div>
+              <div class="col debug">
+                <div class="sc-card mb-3"></div>
+              </div>
+              <div class="col debug">
+                <div class="sc-card mb-3"></div>
+              </div>
+              <div class="col debug">
+                <div class="sc-card mb-3"></div>
+              </div>
+              <div class="col debug">
+                <div class="sc-card mb-3"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="about">
+    <!-- /portfolio -->
+    
+    <!-- about -->
+    <section id="about">
       <div class="container d-flex justify-content-center">
         <div class="row">
           <div class="col-12">
@@ -63,8 +94,10 @@
         </div>
       </div>
     </section>
-
-    <section class="contact_me">
+    <!-- /about -->
+    
+    <!-- contact_me -->
+    <section id="contact_me">
       <div class="container d-flex justify-content-center">
         <div class="row">
           <div class="col-12">
@@ -73,17 +106,20 @@
         </div>
       </div>
     </section>
+    <!-- /contact_me -->
+  </main>
 
-    <footer>
-      <div class="container d-flex justify-content-center">
-        <div class="row">
-          <div class="col-12">
-            <div class="content_top"></div>
-            <div class="content_bottom"></div>
-          </div>
+  <!-- footer -->
+  <footer>
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="col-12">
+          <div class="content_top"></div>
+          <div class="content_bottom"></div>
         </div>
       </div>
-    </footer>
-  </main>
+    </div>
+  </footer>
+  <!-- /footer -->
 </body>
 </html>
