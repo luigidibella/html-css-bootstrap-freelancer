@@ -66,7 +66,7 @@ section {
 
 .my_container {
   margin: 0 auto;
-  width: 60%;
+  width: 70%;
 }
 
 .my_form input,
@@ -98,19 +98,34 @@ section {
 
 /* FOOTER */
 footer {
-  width: 100%;
+  background-color: #3a546d;
 }
 
-/* .content_top {
-  width: 1500px;
-  height: 230px;
-  border: 1px dashed black;
-  background-color: #3a546d;
-} */
+footer .top.container {
+  padding-top: 60px;
+}
 
-/* .content_bottom {
-  width: 1500px;
-  height: 110px;
-  border: 1px dashed black;
+footer .top.container col {}
+
+footer .col{
+  padding-bottom: 60px;
+}
+
+
+
+footer .circle {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+footer span {
+  color: #1abc9c;
+}
+
+footer .bottom.container-fluid {
+  padding: 50px 0;
   background-color: #2c3e50;
-} */
+}
