@@ -51,11 +51,13 @@ section {
   background-color: #1abc9c;
 }
 
-/* .content_about {
-  width: 980px;
-  height: 490px;
-  border: 1px dashed black;
-} */
+.about_button {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.about_button:hover {
+  background-color: #137964;
+}
 
 /* CONTACT_ME */
 #contact_me {
