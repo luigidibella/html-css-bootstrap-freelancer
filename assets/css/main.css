@@ -12,6 +12,15 @@
 ul li{
   list-style: none;
 }
+
+.black-title {
+  color: #333333;
+}
+
+.blue_star {
+  color: #2c3e50;
+}
+
 /* HEADER */
 header{
   height: 90px;
@@ -35,7 +44,6 @@ section {
 
 #portfolio .sc-card {
   background-color: #1abc9c;
-  min-height: 300px;
 }
 
 /* ABOUT */
