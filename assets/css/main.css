@@ -1,13 +1,11 @@
-/* [class^="container"]{
-  background-color: rgba(0, 0, 250, 0.3);
-  border: 1px solid black;
-} */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
 
 .debug {
   background-color: rgba(187, 128, 179, 0.2);
   border: 1px solid black;
 }
-
 
 ul li{
   list-style: none;
@@ -105,13 +103,9 @@ footer .top.container {
   padding-top: 60px;
 }
 
-footer .top.container col {}
-
 footer .col{
   padding-bottom: 60px;
 }
-
-
 
 footer .circle {
   width: 50px;
