@@ -51,11 +51,11 @@ section {
   background-color: #1abc9c;
 }
 
-.about_button {
+#about button {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.about_button:hover {
+#about button:hover {
   background-color: #137964;
 }
 
@@ -64,11 +64,37 @@ section {
   background-color: white;
 }
 
-/* .content_contact_me {
-  width: 960px;
-  height: 460px;
-  border: 1px dashed black;
-} */
+.my_container {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.my_form input,
+.my_form textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.my_form input:focus,
+.my_form textarea:focus {
+  box-shadow: none;
+}
+
+.my_form input::placeholder,
+.my_form textarea::placeholder {
+  color: #2b3d4f;
+} 
+
+#contact_me button {
+  background-color: #1abc9c;
+  border: none;
+}
+
+#contact_me button:hover {
+  background-color: #137964;
+}
 
 /* FOOTER */
 footer {
