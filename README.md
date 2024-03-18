@@ -1,6 +1,5 @@
 Esercizio: Bootstrap Freelancer
 ===
-## Bootstrap Freelancer
 Utilizziamo Bootstrap 5 per ricreare il template responsive Freelancer come da screenshots allegati.
 ## Milestone 1
 Andiamo sulla documentazione di Bootstrap 5 e partiamo dalla sezione “Getting started”:
